@@ -51,7 +51,7 @@ $(function () {
         if (paint == true) {
             if (paint_erase == "paint") {
                 //get color input   
-                ctx.strokeStyle = $("#paintColor").val();
+                ctx.strokeStyle = $(".paintColor").val();
             } else {
                 //white color 
                 ctx.strokeStyle = "white";
